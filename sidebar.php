@@ -17,14 +17,14 @@ tha_sidebars_before(); ?>
 		), array(
 			'before_widget'	=>	'<aside id="archives" class="widget well widget_archives">',
 			'after_widget'	=>	'</aside>',
-			'before_title'	=>	'<h3 class="widget-title">',
-			'after_title'	=>	'</h3>',
+			'before_title'	=>	'<h4 class="widget-title">',
+			'after_title'	=>	'</h4>',
 		) );
 		the_widget( 'WP_Widget_Meta', array(), array(
 			'before_widget'	=>	'<aside id="meta" class="widget well widget_meta">',
 			'after_widget'	=>	'</aside>',
-			'before_title'	=>	'<h3 class="widget-title">',
-			'after_title'	=>	'</h3>',
+			'before_title'	=>	'<h4 class="widget-title">',
+			'after_title'	=>	'</h4>',
 		) );
 	} // end sidebar widget area
 	
